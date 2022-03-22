@@ -33,15 +33,6 @@
                 <ul>
                     <li><a <?php if(strcmp($_SERVER["PHP_SELF"],"/EscuelaApp/index.php")==0) echo "class='active'"  ?> href="#"></a></li>
 
-                    
-                    <?php if (!isset($_SESSION["registrarse"])) { ?>
-                        <li><a href="registrarse.php">Registrarse</a></li>
-                    <?php } ?>
-                    
-
-                    <?php if (!isset($_SESSION["iniciarSesion"])) { ?>
-                        <li><a href="iniciarSesion.php">Iniciar Sesión</a></li>
-                    <?php } ?>
 
                 </ul>
 

@@ -1,5 +1,8 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+.active{
+	color:red !important;
+}
 html{
 	background-color: #eaf0f2;
 }

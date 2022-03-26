@@ -63,7 +63,7 @@ if ($_POST){
                 };
 
                 if($val){
-                    echo '<p>No hay registros de estudiantes</p>';
+                    echo '<p>No se encuentran registros de estudiantes</p>';
                 }
                 echo'
             </table>
